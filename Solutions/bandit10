@@ -2,10 +2,8 @@ ssh bandit10@bandit.labs.overthewire.org -p 2220
 
 password: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
 
-strings data.txt | grep "=="
-echo "VGhlIHBhc3N3b3JkIGlzIElGdWt3S0dzRlc4TU9xM0lSRnFyeEUxaHhUTkViVVBSCg==" | base64 -d
+cat data.txt | base64 -d
 The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
-
 
 
 We found that the password for the next level is: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
