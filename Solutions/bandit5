@@ -1,0 +1,9 @@
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+
+password: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+find . -size 1033c ! -executable -exec file {} + | grep ASCII
+cat ./maybehere07/.file2
+
+
+We found that the password for the next level is: DXjZPULLxYr17uwoI01bNLQbtFemEgo7

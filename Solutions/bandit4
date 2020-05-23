@@ -1,0 +1,7 @@
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+
+password: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+
+for i in {0..9} ; do cat /home/bandit4/inhere/-file0$i echo $i; done
+
+We found that the password for the next level is: koReBOKuIDDepwhWk7jZC0RTdopnAYKh

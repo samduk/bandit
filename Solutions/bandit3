@@ -1,0 +1,9 @@
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+
+password: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+
+cd inhere
+ls -lah
+cat .hidden
+
+We found that the password for the next level is: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
