@@ -1,0 +1,7 @@
+ssh bandit9@bandit.labs.overthewire.org -p 2220
+
+password: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+strings data.txt | grep "=="
+
+We found that the password for the next level is: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
